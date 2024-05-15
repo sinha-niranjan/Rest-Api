@@ -2,7 +2,7 @@ import express from "express";
 import {review} from "./src/data.js"
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/review", (req, res) => {
   res.send(review);
 });
 
